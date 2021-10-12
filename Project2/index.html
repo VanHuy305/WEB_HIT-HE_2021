@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Covidy</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-branch" href="#">
+                    <img src="./img/logo.png" height="60">
+                </a>
+                <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon">
+                        <i class="fa fa-bars"></i>
+                    </span>
+                </button>
+                <div class=" collapse navbar-collapse " id="navbarResponsive">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item ml-lg-4">
+                            <a class="nav-link active" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item ml-lg-4">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item ml-lg-4">
+                            <a class="nav-link" href="#symptoms">Symptoms</a>
+                        </li>
+                        <li class="nav-item ml-lg-4">
+                            <a class="nav-link" href="#covid-spread">Covid spread</a>
+                        </li>
+                        <li class="nav-item ml-lg-4">
+                            <a class="nav-link" href="#do">Do, dont's</a>
+                        </li>
+                        <li class="nav-item dropdown ml-lg-4">
+                            <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">News</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="blog-grid.html">Blog Grid</a>
+                            <a class="dropdown-item" href="blog-sidebar.html">Blog Sidebar</a>
+                            <a class="dropdown-item" href="blog-details.html">Blog Details</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <a class="btn-nav" href="#"><i class="fa fa-phone"></i>111-333-555-77</a>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navmenu -->
+        <section class="home" id="home">
+            <div class="container">
+                <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-6">
+                    <div class="home-content text-center text-md-left">
+                      <h1>Stay Home Stay Safe</h1>
+                      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
+                      <a href="#about" class="home-btn">ABOUT CORONA</a>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-6">
+                    <div class="hero-img">
+                      <img src="./img/hero.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section id="count" class="count">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3 text-center">
+              <div class="count-content">
+                <h2>186</h2>
+                <p>Affected Country</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 text-center">
+              <div class="count-content">
+                <h2>2411875</h2>
+                <p>Confirmed Cases</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 text-center">
+              <div class="count-content">
+                <h2>155897</h2>
+                <p>Recovered Cases</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 text-center">
+              <div class="count-content">
+                <h2>10564</h2>
+                <p>Worldwide Deaths</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        <!-- end home -->
+    </header>
+
+    <!-- about -->
+    <section id="about" class="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+              <div class="about-img">
+                  <img src="./img/about.png" alt="">
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 ">
+              <div class="content-about text-left">
+                <div class="content-top">
+                  <h4 class="badge">About Covid</h4>
+                  <h2>What is Coronavirus?</h2>
+                </div>
+                <div class="content-bottom content-bottom-about">
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.</p>
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.</p>
+                  <a href="#symptoms" class="home-btn">SEE SYMPTOMS</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- end about -->
+
+    <!-- symptoms -->
+    <section id="symptoms" class="symptoms">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="content-symptoms text-left">
+              <div class="content-top">
+                <h4 class="badge">Covid Symptoms</h4>
+                <h2>What are symptoms?</h2>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                <div class="content-bottom">
+                  <ul>
+                    <li><i class="fa fa-check fa-icon-style"></i> Headache</li>
+                    <li><i class="fa fa-check fa-icon-style"></i> Fever</li>
+                    <li><i class="fa fa-check fa-icon-style"></i> Cough</li>
+                  </ul>
+                  <ul class="two">
+                    <li><i class="fa fa-check fa-icon-style"></i> Breath shortness</li>
+                    <li><i class="fa fa-check fa-icon-style"></i> Kidney Failure</li>
+                    <li><i class="fa fa-check fa-icon-style"></i> Sneeze</li>
+                  </ul>
+                </div>
+              </div>
+              <a href="#covid-spread" class="home-btn">WHY COVID SPREAD</a>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="symptoms-img">
+              <img src="./img/symptoms.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Covid-Threat">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+              <div class="content-covid-threat text-center">
+                  <div class="content-top">
+                        <h4 class="badge">Covid Threat</h4>
+                        <h2>Maximum amount of people die with Covid-19</h2>
+                  </div>
+                  <div class="content-bottom">
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+                        </p>
+                      <div class="world-map-img">
+                          <img src="./img/world-map.png" alt="world-map">
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  endl symptoms -->
+
+    <!-- Covid spread -->
+    <section class="covid-spread" id="covid-spread">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6 text-center">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-6 p-3">
+                  <div class="covid-spread-box">
+                      <img src="./img/personal-contact.png" alt="">
+                      <p>Personal Contact</p>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6 p-3">
+                  <div class="covid-spread-box">
+                      <img src="./img/face-touch.png" alt="">
+                      <p>Face Touch</p>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6 p-3">
+                  <div class="covid-spread-box">
+                      <img src="./img/people-crowd.png" alt="">
+                      <p>People Crowd</p>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6 p-3">
+                  <div class="covid-spread-box">
+                      <img src="./img/dry-cough.png" alt="">
+                      <p>Dry Cough</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="content-symptoms text-left">
+              <div class="content-top">
+                <h4 class="badge">Covid Spread</h4>
+                <h2>How does coronavirus spread?</h2>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                <div class="content-bottom">
+                  <ul>
+                    <li><i class="fa fa-check fa-icon-style"></i>But I must explain to you how all this mistaken idea.</li>
+                    <li><i class="fa fa-check fa-icon-style"></i>Zwei flinke Boxer jagen die quirlige Eva und ihren.</li>
+                    <li><i class="fa fa-check fa-icon-style"></i>Sed ut perspiciatis unde omnis iste natus error sit.</li>
+                  </ul>
+                </div>
+                <a href="#do" class="home-btn">WHY COVID SPREAD</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end covid spread -->
+
+    <section class="do" id="do">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+            <div class="content-covid-threat text-center">
+                <div class="content-top">
+                    <h4 class="badge">Covid Prevention</h4>
+                    <h2>Take steps to protect yourself</h2>
+                </div>
+                <div class="content-bottom">
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+                    </p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6">
+              <div class="do-top">
+                  <h3>What you<span style="color: #16cf16;"> should do</span></h3>
+              </div>
+              <div class="do-bottom">
+                <div class="do-list d-flex align-items-center">
+                    <img src="./img/wear-face-mask.png" alt="">
+                    <div class="content-do">
+                        <h3>Wear Face Mask</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit sed accusantium doloremque.</p>
+                    </div>
+                </div>
+                <div class="do-list d-flex align-items-center">
+                    <img src="./img/cover-face.png" alt="">
+                    <div class="content-do">
+                        <h3>Cover Face When Coughing</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit sed accusantium doloremque.</p>
+                    </div>
+                </div>
+                <div class="do-list d-flex align-items-center">
+                    <img src="./img/wash-hand.png" alt="">
+                    <div class="content-do">
+                        <h3>Wash Your Hand</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit sed accusantium doloremque.</p>
+                    </div>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="do-top">
+                <h3>What you<span style="color: rgb(175, 33, 33);"> shouldn't do</span></h3>
+            </div>
+            <div class="do-bottom">
+              <div class="do-list d-flex align-items-center">
+                  <img src="./img/avoid-animal-contact.png" alt="">
+                  <div class="content-do">
+                      <h3>Wear Face Mask</h3>
+                      <p>Sed ut perspiciatis unde omnis iste natus error sit sed accusantium doloremque.</p>
+                  </div>
+              </div>
+              <div class="do-list d-flex align-items-center">
+                  <img src="./img/avoid-hand-shake.png" alt="">
+                  <div class="content-do">
+                      <h3>Cover Face When Coughing</h3>
+                      <p>Sed ut perspiciatis unde omnis iste natus error sit sed accusantium doloremque.</p>
+                  </div>
+              </div>
+              <div class="do-list d-flex align-items-center">
+                  <img src="./img/short-distance.png" alt="">
+                  <div class="content-do">
+                      <h3>Short Distance</h3>
+                      <p>Sed ut perspiciatis unde omnis iste natus error sit sed accusantium doloremque.</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end do-don't -->
+
+    <!-- News feed -->
+    <section class="news-feed">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+            <div class="content-covid-threat text-center">
+                <div class="content-top">
+                    <h4 class="badge">News Feed</h4>
+                    <h2>Stay updated with our news feed</h2>
+                </div>
+                <div class="content-bottom">
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+                    </p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="content-news-feed">
+              <div class="box-img">
+                <div class="box-date">
+                  <span>13 March, 20</span>
+                </div>
+                <img src="./img/01-news-feed.png" alt="">
+              </div>
+              <div class="content-bottom">
+                <h4 class="badge">Statistics</h4>
+                <h3>Coronavirus, Social and Physical Distancing and Self Quarantine</h3>
+                <a href="#">Read More<i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="content-news-feed">
+              <div class="box-img">
+                <div class="box-date">
+                  <span>17 March, 20</span>
+                </div>
+                <img src="./img/02-news-feed.png" alt="">
+              </div>
+              <div class="content-bottom">
+                <h4 class="badge">vaccine</h4>
+                <h3>How coronavirus vaccine will protect people from the covid in the whole world</h3>
+                <a href="#">Read More<i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="content-news-feed">
+              <div class="box-img">
+                <div class="box-date">
+                  <span>24 March, 20</span>
+                </div>
+                <img src="./img/03-news-feed.png" alt="">
+              </div>
+              <div class="content-bottom">
+                <h4 class="badge">protection</h4>
+                <h3>Protect your family form covid and stay at home and do some exercise</h3>
+                <a href="#">Read More<i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end news feed -->
+
+    <!-- want to test Covid -->
+    <section class="want-to">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+            <div class="content-covid-threat content-want text-center">
+                <div class="content-top">
+                  <h2>Want to test Covid?</h2>
+                </div>
+                <div class="content-bottom">
+                  <p>Our goal at Our World in Data is to provide testing data over time for many countries around the world.
+                  </p>
+                </div>
+                <a href="#" class="btn card-for-test"><i class="fa fa-phone"></i>CALL FOR TEST</a>
+                <a href="#" class="btn book-doctor"><i class="far fa-calendar-alt"></i>BOOK DOCTOR</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end Want to test Covid? -->
+
+    <!-- footer -->
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-4">
+              <div class="logo">
+                  <img src="./img/logo.png">
+              </div>
+              <p class="footer-text">This website is for health information and advice about coronavirus (COVID-19), how to prevent and protect yourself from disease.</p>
+              <p class="footer-text">
+                  Learn about the government response to coronavirus on covid.gov.pk</p>
+              <div class="link-icon">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-2">
+              <ul class="footer-text-list nav flex-column">
+                <li></li><h5><i class="fa fa-plus"></i>Quick Links</h5></li>
+                <li><a class="nav-link ml-2 px-0" href="#">Symptoms</a></li>
+                <li><a class="nav-link ml-2 px-0" href="#">Prevention</a></li>
+                <li><a class="nav-link ml-2 px-0" href="#">Protect Yourself</a></li>
+                <li><a class="nav-link ml-2 px-0" href="#">About Corona</a></li>
+                <li><a class="nav-link ml-2 px-0" href="#">FAQs</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-2">
+              <ul class="footer-text-list nav flex-column">
+                <li><h5><i class="fa fa-plus"></i>Helpful Links</h5></li>
+                <li><a class="nav-link ml-2 px-0" href="#">WHO</a></li>
+                <li><a class="nav-link ml-2 px-0" href="#">Services</a></li>
+                <li><a class="nav-link ml-2 px-0" href="#">Worldwide Info</a></li>
+                <li><a class="nav-link ml-2 px-0" href="#">About Corona</a></li>
+                <li><a class="nav-link ml-2 px-0" href="#">FAQs</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-2">
+              <ul class="footer-text-list nav flex-column">
+                <li><h5><i class="fa fa-plus"></i>Quick Links</h5></li>
+                <li><a class="nav-link ml-2 px-0" href="#">Symptoms</a></li>
+                <li><a class="nav-link ml-2 px-0" href="#">Prevention</a></li>
+                <li><a class="nav-link ml-2 px-0" href="#">Protect Yourself</a></li>
+                <li><a class="nav-link ml-2 px-0" href="#">About Corona</a></li>
+                <li><a class="nav-link ml-2 px-0" href="#">FAQs</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-2">
+              <ul class="footer-text-list nav flex-column">
+                <li><h5><i class="fa fa-plus"></i>Helpful Links</h5></li>
+                <li><a class="nav-link ml-2 px-0" href="#">WHO</a></li>
+                <li><a class="nav-link ml-2 px-0" href="#">Services</a></li>
+                <li><a class="nav-link ml-2 px-0" href="#">Worldwide Info</a></li>
+                <li><a class="nav-link ml-2 px-0" href="#">About Corona</a></li>
+                <li><a class="nav-link ml-2 px-0" href="#">FAQs</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="footer-bottom-text">
+                    <p class="py-4 m-0">© 2020 by Glowlogix</p>
+                    <a href="#" class="py-4 m-0">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>

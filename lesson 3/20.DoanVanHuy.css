@@ -1,0 +1,183 @@
+body {
+  font-family: cursive;
+  margin: -8px auto 0;
+  width: 1519px;
+}
+.header {
+  background-color: rgb(34, 191, 108);
+  display: flex;
+  height: 300px;
+  margin: auto;
+}
+.header img {
+  object-fit: cover;
+  position: relative;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  top: 75px;
+  left: 130px;
+  z-index: 1;
+}
+#text {
+  position: relative;
+  top: 140px;
+  left: 205px;
+  color: white;
+}
+#name {
+  font-size: 45px;
+}
+#story {
+  font-size: 20px;
+  margin: 5px 25px;
+}
+#icon {
+  position: relative;
+  color: white;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  top: 85px;
+  left: 900px;
+}
+#icon i {
+  color: white;
+  margin-bottom: 10px;
+  width: 5px;
+}
+
+#banner {
+  position: relative;
+  border-top-left-radius: 60%;
+  height: 100px;
+  margin-top: -58px;
+  z-index: 0;
+  background-color: rgb(255, 255, 1);
+}
+.information {
+  border: 4px solid rgb(250, 250, 31);
+  border-radius: 60%;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px 433px;
+  margin-top: -25px;
+  width: 400px;
+  height: 25px;
+  padding: 5px 115px;
+}
+#circle-one {
+  border: 3px solid rgb(250, 250, 31);
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: relative;
+  top: 35px;
+  left: 1045px;
+}
+#circle-two {
+  border: 3px solid rgb(250, 250, 31);
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: relative;
+  top: 9px;
+  left: 433px;
+}
+
+.body {
+  display: flex;
+}
+.boder-body {
+  margin: 10px auto;
+  border: none;
+  width: 1250px;
+  height: auto;
+}
+
+.container-one {
+  border: none;
+  width: 750px;
+  height: auto;
+  float: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.education {
+  border: none;
+  color: white;
+  background-color: rgb(17, 172, 133);
+  font-size: 20px;
+  padding: 11px 321px;
+}
+
+.box {
+  background-color: rgb(34, 191, 108);
+  margin-right: 10px;
+  margin-top: 5px;
+  width: 238px;
+  height: 365px;
+}
+.box img {
+  object-fit: cover;
+  width: 100%;
+  height: 285px;
+}
+.box a {
+  text-decoration: none;
+}
+.item {
+  color: white;
+  margin-top: -25px;
+  padding: 10px;
+}
+#year {
+  margin-top: -10px;
+}
+
+.container-two {
+  border: none;
+  width: 392px;
+  height: auto;
+  float: right;
+  display: flex;
+  flex-direction: column;
+}
+.Blog {
+  border: none;
+  color: white;
+  background-color: rgb(17, 172, 133);
+  font-size: 20px;
+  padding: 11px 180px;
+}
+.box-1 {
+  border: 2px solid rgb(34, 191, 108);
+  margin-top: 3px;
+  width: auto;
+  height: 105px;
+}
+.box-1 img {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  position: relative;
+  top: -75px;
+  right: -15px;
+}
+.box-1 p {
+  position: relative;
+  left: 110px;
+}
+
+.footer {
+  background-color: rgb(34, 191, 108);
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+  font-size: 30px;
+}

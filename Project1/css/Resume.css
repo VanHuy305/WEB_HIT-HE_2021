@@ -1,0 +1,144 @@
+@import url("./header.css");
+
+body {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: "Open Sans", sans-serif;
+}
+.main {
+  width: 1140px;
+  margin: 8rem auto 3rem;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 1.5rem;
+}
+h1 {
+  margin-left: 5px;
+}
+.container-main {
+  display: flex;
+  flex-direction: row;
+}
+.container-main h3 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-left: 6px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+.container-main h4 {
+  margin-bottom: 10px;
+  color: #18d26e;
+}
+.container-one {
+  width: 50%;
+}
+.container-one .Alice {
+  margin-left: 25px;
+  margin-top: -15px;
+}
+.container-one .Alice p {
+  margin-bottom: 20px;
+}
+.container-one .Alice ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.container-one .Alice ul li {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+.circle {
+  position: relative;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background-color: #18d26e;
+}
+.circle:before {
+  position: absolute;
+  content: "";
+  border-left: 2px solid rgba(255, 255, 255, 0.6);
+  height: 180px;
+  top: 15px;
+  left: 6px;
+}
+
+.container-one .master,
+.container-one .bachelor {
+  margin-left: 25px;
+  margin-top: -15px;
+}
+.education .circle:before {
+  height: 360px;
+}
+.years {
+  width: 126px;
+  height: 30px;
+  padding: 7px 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.bachelor {
+  position: relative;
+}
+.bachelor .circle1 {
+  position: absolute;
+  left: -25.5px;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background-color: #18d26e;
+}
+.bachelor h4 {
+  margin-top: 50px;
+}
+#font {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+#tab {
+  margin-bottom: 40px;
+}
+
+.container-two {
+  width: 50%;
+}
+.container-two .circle:before {
+  height: 635px;
+}
+.container-two .Senior {
+  margin-left: 25px;
+  margin-top: -15px;
+}
+.container-two .Senior .years {
+  width: 145px;
+}
+
+.container-two ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.container-two ul li {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.container-two .Graphic {
+  margin-left: 25px;
+  margin-top: -15px;
+}
+.Graphic {
+  position: relative;
+}
+.Graphic h4 {
+  margin-top: 50px;
+}
+.Graphic .circle1 {
+  position: absolute;
+  border-radius: 50%;
+  left: -25.5px;
+  width: 15px;
+  height: 15px;
+  background-color: #18d26e;
+}
